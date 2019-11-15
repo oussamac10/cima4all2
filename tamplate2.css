@@ -1,0 +1,319 @@
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#arabe img{
+    box-shadow: 3px 5px 3px  gray;
+}
+#arabe img:hover{
+    box-shadow: 3px 5px 3px  lightseagreen;
+}
+#arabe h5{
+    font-size: 1rem;
+    float: right;
+}
+
+#arabe h5:hover{
+    color: lightseagreen;
+}
+#arabe h6{
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+#arabe a{
+    text-decoration: none;
+}
+#arabe h6:hover{
+ color: orange;
+}
+
+#animation img{
+    box-shadow: 3px 5px 3px  gray;
+}
+#animation img:hover{
+    box-shadow: 3px 5px 3px  lightseagreen;
+}
+#animation h5{
+    font-size: 1rem;
+    float: right;
+}
+
+#animation h5:hover{
+    color: lightseagreen;
+}
+#animation h6{
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+#animation a{
+    text-decoration: none;
+}
+#animation h6:hover{
+ color: orange;
+}
+
+#asia img{
+    box-shadow: 3px 5px 3px  gray;
+}
+#asia img:hover{
+    box-shadow: 3px 5px 3px  lightseagreen;
+}
+#asia h5{
+    font-size: 1rem;
+    float: right;
+}
+
+#asia h5:hover{
+    color: lightseagreen;
+}
+#asia h6{
+    margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+#asia a{
+    text-decoration: none;
+}
+#asia h6:hover{
+ color: orange;
+}
+#hindi img{
+    box-shadow: 3px 5px 3px gray;
+}
+#hindi img:hover{
+    box-shadow: 3px 5px 3px  lightseagreen;
+}
+#hindi h5{
+    font-size: 1rem;
+    float: right;
+}
+
+#hindi h5:hover{
+    color: lightseagreen;
+}
+#hindi h6{
+        margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+#hindi a{
+    text-decoration: none;
+}
+#hindi h6:hover{
+ color: orange;
+}
+#anglais img:hover{
+        box-shadow: 3px 5px 3px  lightseagreen;
+}
+#anglais img{
+    box-shadow: 3px 5px 3px gray;
+}
+#anglais h5{
+    font-size: 1rem;
+    float: right;
+}
+
+#anglais h5:hover{
+    color: lightseagreen;
+}
+#anglais h6{
+        margin-top: 5px;
+    color: black;
+    text-align: center;
+}
+#anglais a{
+    text-decoration: none;
+}
+#anglais h6:hover{
+ color: orange;
+}
+#carouselExampleIndicators h5:hover{
+    color: lightseagreen;
+}
+#carouselExampleIndicators p:hover{
+    color: lightseagreen;
+}
+
+#i-search{
+    position: relative;
+    left: 12px;
+    cursor: pointer;
+    color: gainsboro;
+    font-size: 20px;
+}
+h2 {
+	font-family: Arial,Helvetica,Verdana,Sans-Serif;
+    font-size: 1.5rem;
+}
+#i-search:hover{
+    color: lightseagreen;
+}
+nav li:hover{
+    border: 1px solid transparent;
+    border-bottom-color:lightseagreen; 
+}
+#nav:hover{
+    color: lightseagreen;
+}
+hr{
+    width:6%;
+    height: 2px;
+    background-color: lightseagreen;
+}
+section{
+    padding: 60px 0;
+}
+section .row{
+    padding-top: 15px;
+}
+#services i{
+    color: lightseagreen;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+#anglais{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#asia{
+     margin-left: 15px;
+    margin-right: 15px;
+}
+#hindi{
+     margin-left: 15px;
+    margin-right: 15px;
+}
+#animation{
+     margin-left: 15px;
+    margin-right: 15px;
+}
+#arabe{
+     margin-left: 15px;
+    margin-right: 15px;
+}
+#team img {
+    border-radius: 50%;
+}
+ #team p{
+    margin-top: 12px;
+}
+#team{
+    padding: 50px 0;
+}
+#contact{
+     background-color: gainsboro;
+}
+#contact i{
+    color: lightseagreen;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+footer{
+    background-color:lightseagreen;
+}
+footer i{
+    color : white;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: gainsboro;
+    background-image: url("fanreel-loader2.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.page{
+    display: none;
+}
+
+@media(min-width : 993px) and (min-width : 1200px){
+.img-fluid {
+    max-width: 100%;
+    height: 38em;
+}}
+@media  (max-width : 576px){
+footer i{
+    font-size: 29px;
+}
+}
+@media  (max-width : 1024px){
+#anglais img{
+    height: 29em;
+    }
+    #hindi img{
+    height: 29em;
+    }
+     #asia img{
+    height: 29em;
+    }
+     #animation img{
+    height: 29em;
+    }
+     #arabe img{
+    height: 29em;
+    }
+}
+
+
+      
